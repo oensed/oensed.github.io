@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oensed</title>
     <style>
-
         @font-face {
             font-family: 'cfont';
             src: url('font.ttf') format('truetype');
@@ -23,7 +22,7 @@
             height: 100vh;
         }
 
-        .horizontal-scroller {
+        .full {
             display: flex;
             width: fit-content;
             height: 100vh;
@@ -41,7 +40,7 @@
             font-weight: 900;
             font-size: larger;
         }
-        .secret-content {
+        .contact {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -50,14 +49,17 @@
             box-sizing: border-box;
             font-size: 1.5rem;
         }
+        .contact a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
-
-<div class="horizontal-scroller">
-
+<div class="full">
     <div class="mainscr">
-
         <pre id="bg-ascii">
 
     
@@ -74,30 +76,19 @@
 
                                                                       concept not for masses
         </pre>
-
     </div>
-
-    <div style="width: 100%; margin-top: 100px; text-align: end; margin-right: 30%;">
-        [ layer_01: knowledge of Linux ]
-        <br><br>
-        [ layer_02: python scripts ]
-        <br><br>
-        [ layer_03: frontend core ]
-        <br><br>
-        [ layer_04: other shit ]
+    <div style="width: 40vw; margin-top: 100px; text-align: end; margin-right: 30%; line-height: 3.5;">
+        <p>[ layer_01: knowledge of Linux ]</p>
+        <p>[ layer_02: python scripts ]</p>
+        <p>[ layer_03: frontend core ]</p>
+        <p>[ layer_04: other shit ]</p>
     </div>
-
-    <div class="secret-content">
+    <div class="contact">
         <p>// ! //</p>
         <a href="https://t.me/oormr" target="_blank">telegram</a>
         <a href="#" onclick="alert('Discord: oensed')">discord</a>
         <a href="https://github.com/oensed" target="_blank">github</a>
     </div>
-
 </div>
-
-
-
-
 </body>
 </html>
