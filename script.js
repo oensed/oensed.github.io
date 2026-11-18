@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 });
 
 const texts = [
-    "Generalist programmer",
+    "Spaghetti Chef",
     "creating cool stuff 4fun",
     "dm me on telegram or discord"
 ];
